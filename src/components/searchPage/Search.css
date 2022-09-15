@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@300&display=swap');
+
+.search-container {
+    width: 70vw;
+    height: auto;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 5px 5px 3px rgba(0,0,0, 0.2);
+
+}
+
+.search-bar {
+    margin: 25px;
+    width: 40%;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.search-button {
+    background-color: red;
+    height: auto;
+    width: 12%;
+    margin-top: 2%;
+    padding: 1%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 3px rgba(0,0,0, 0.2);
+    background-color: rgba(11, 84, 183, 1);
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.search-button:active {
+    box-shadow: 5px 2px 1px rgba(0,0,0, 0.2);
+}
+
+h1  {
+    font-family: 'Arvo', serif;
+    font-size: 45px;
+    margin: 2% 0;
+    letter-spacing: 3px;
+}
+
+@media screen and (max-width: 950px) {
+    .search-container {
+       width: 70vw;
+        height: 50vh;
+    }
+
+    .search-bar {
+        margin: 40px;
+        width: 60%;
+    }
+
+    .search-button {
+        width: 25%;
+        padding: 2%;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .search-container {
+        width: 80vw;
+        height: 60vh;
+    }
+
+    .search-button {
+        padding: 2%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .search-container {
+        height: 65vh;
+    }
+
+    .search-bar {
+        width: 65vw;
+        margin: 40px;
+    }
+
+    h1 {
+        letter-spacing: 1px;
+    }
+
+    .search-button {
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@300&display=swap');
+
+
+.return-button {
+    padding: 15%;
+    margin-bottom: 3%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 3px rgba(0,0,0, 0.2);
+    background-color: rgba(11, 84, 183, 1);
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.return-button:active {
+    box-shadow: 5px 2px 1px rgba(0,0,0, 0.2);
+}

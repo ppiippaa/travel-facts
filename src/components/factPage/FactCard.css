@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@300&display=swap');
+
+.fact-container {
+    height: 200px;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 5%;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+
+}
+
+.fact-title {
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    color: rgba(11, 84, 183, 1);
+}
+
+.fact-text {
+    font-family: 'Arvo', serif;
+    color: rgba(7, 146, 86, 1);
+}
+/*.fact-image {*/
+/*    height: 50px;*/
+/*    width: 50px;*/
+/*    color: red;*/
+/*    border: 1px solid black;*/
+/*}*/
+
+@media screen and (max-width: 900px) {
+    .fact-container {
+        height: 185px;
+        width: 230px;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    .fact-container {
+        height: 175px;
+        width: 205px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .fact-container {
+        height: 100px;
+        width: 90%;
+        justify-content: center;
+    }
+
+    .fact-title {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .fact-container {
+        width: 90%;
+        height: 120px;
+    }
+
+}
